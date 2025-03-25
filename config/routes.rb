@@ -18,7 +18,16 @@ Rails.application.routes.draw do
 
   get 'api/v1/user/user_destroy_session', to: 'api/v1/users#user_destroy_session'
 
-  get 'multiplication_table', to: 'react#home'
+
+  get '/up', to: 'health_check#up'
+
+  namespace :api do
+    namespace :v1 do
+      resources :multiplication_tables
+    end
+  end
+
+  get 'multiplication_table_before', to: 'react#home'
   #-*****************************************************************************************************
 
 

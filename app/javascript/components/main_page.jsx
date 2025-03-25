@@ -13,7 +13,7 @@ export default function MainPage() {
                             <div className="bg-white  rounded-md">
                                 <h1 className="bg-blue-200 text-center text-xl py-2 rounded-md border-b-2 text-gray-600 font-bold">{t('description.exams')}</h1>
                                 <div className="bg-white rounded-md list-none  text-center ">                                                                        
-                                    <li className="py-3 border-b-2  hover:bg-indigo-200"><a href="/multiplication_table" className="list-none  hover:text-indigo-900 hover:text-lg hover:font-bold">{t('description.multiplication_table')}</a></li>
+                                    <li className="py-3 border-b-2  hover:bg-indigo-200"><a href="/multiplication_table_before" className="list-none  hover:text-indigo-900 hover:text-lg hover:font-bold">{t('description.multiplication_table')}</a></li>
                                     <li className="py-3 border-b-2  hover:bg-indigo-200"><a href="/clients" className="list-none  hover:text-indigo-900 hover:text-lg hover:font-bold">{t('description.clients')}</a></li>
                                     <li className="py-3 border-b-2  hover:bg-indigo-200"><a href="/types_of_keys" className="list-none  hover:text-indigo-900 hover:text-lg hover:font-bold">{t('description.types_of_keys')}</a></li>
                                     <li className="py-3 border-b-2  hover:bg-indigo-200"><a href="#" className="list-none  hover:text-indigo-900 hover:text-lg hover:font-bold">{t('description.report')}</a></li>
@@ -32,8 +32,6 @@ export default function MainPage() {
                 </section>
 
             </main>
-
-
         </div>
     )
 }

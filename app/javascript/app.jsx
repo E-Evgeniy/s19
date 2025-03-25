@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import MainPage from "./components/main_page"
-import MultiplicationTable from "./components/exams/multiplication_table"
+import MultiplicationTableBefore from "./components/exams/multiplication_table/mt_before"
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
             <BrowserRouter>
             <Routes>            
                 <Route path="*" element={<MainPage />} />
-                <Route path="multiplication_table/" element={<MultiplicationTable />} />
+                <Route path="multiplication_table_before/" element={<MultiplicationTableBefore />} />
             </Routes>
             </BrowserRouter>
         </div>
